@@ -37,7 +37,7 @@ Not
 <a id="usage"></a>
 ## Usage
 ```cpp
-void setAnalogMux(ADC_modes mux); // Analog input (ADC_A0-ADC_A7)/ thermal sensor (ADC_SENSOR)/ 1.1V (ADC_1V1)/ ADC_GND (default: ADC_A0)
+void setAnalogMux(ADC_modes mux); // Analog input (ADC_A0- ADC_A7)/ thermal sensor (ADC_SENSOR)/ 1.1V (ADC_1V1)/ ADC_GND (default: ADC_A0)
 void ADC_enable(void); // Enable ADC
 void ADC_disable(void); // Disable ADC (default)
 void ADC_setPrescaler(byte prescl); // Select ADC Divisor (2, 4, 8, 16, 32, 64, 128) // (default: 2)
@@ -77,7 +77,7 @@ void setup() {
   ADC_enable(); // required to be called
   ADC_setPrescaler(64); // no call - divisor 2
   ADC_setReference(ADC_VCC); // no call - ADC_AREF
-  setAnalogMux(ADC_A4); // select ADC_A0-ADC_A7 / ADC_SENSOR - thermometer / ADC_1V1 / ADC_GND // No call - ADC_A0
+  setAnalogMux(ADC_A4); // select ADC_A0- ADC_A7 / ADC_SENSOR - thermometer / ADC_1V1 / ADC_GND // No call - ADC_A0
 }
 
 void loop() {
