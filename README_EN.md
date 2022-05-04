@@ -1,3 +1,5 @@
+This is an automatic translation, may be incorrect in some places. See sources and examples!
+
 #directADC
 Library for advanced manual control of ADC and ATmega328 comparator
 - Library functions allow you to access all the features and modes of operation with the ADC
