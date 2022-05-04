@@ -98,5 +98,5 @@ void loop() {
 
 <a id="feedback"></a>
 ## Bugs and feedback
-When you find bugs, create an **Issue**, or better yet, write to [alex@alexgyver.ru](mailto:alex@alexgyver.ru)
+When you find bugs, create an **Issue**, or better, immediately write to the mail [alex@alexgyver.ru](mailto:alex@alexgyver.ru)
 The library is open for revision and your **Pull Request**'s!
